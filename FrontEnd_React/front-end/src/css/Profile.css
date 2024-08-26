@@ -1,0 +1,100 @@
+.box-profile-body{
+    background-image: linear-gradient(120deg, #6e2244, #2167aff5);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* margin-top: -5%; */
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+.profile-box{
+    
+    border: 2px solid white;
+    border-radius:  12px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: 2px solid rgba(255, 255, 255, 0.39);
+    justify-content: center;
+    align-items: center;
+    padding: 2% 2%;
+    border-radius: 12px;
+    background-color: rgb(255 255 255 / 4%);/* Semi-transparent white */
+    backdrop-filter: blur(20px); /* Blur effect */
+    width: 60%;
+    height: 60%;
+    position: relative;
+   transition: box-shadow .3s ease,transform 0.3s ease-in-out, border 0.3s ease;
+}
+
+.profile-img-circle{
+    position: absolute;
+    top: -10%;
+    left: 38%;
+    width: 25%;
+    height: 40%;
+    border-radius: 100% ;
+    border: 2px solid rgba(255, 255, 255, 0.39);
+}
+
+.data{
+    display: flex;
+    justify-content: center   ;
+    align-items: center;
+    align-items: center;
+    gap: 30%;
+}
+
+.useremail ,.username{
+    /* border: 2px solid rgba(255, 255, 255, 0.39); */
+    /* margin: 2rem 2rem; */
+    padding: 12px 12px;
+    /* padding: 0px 12px; */
+    width: 22rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* height: 150%; */
+    border-radius: 10px;
+    background-color: rgb(255 255 255 / 5%);
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    align-items: center;
+    position: absolute;
+    top: 80%;
+}
+
+.button-profile{
+    background-color: rgb(255 255 255 / 5%);
+    border: none;
+    padding:12px 12px;
+    font-size: 1rem;
+    border-radius: 12px;
+    transition: border 0.3s ease-in-out;
+}
+
+.button-profile:hover{
+    border: 2px solid white;
+}
+
+.delete{
+    color: red;
+}
+
+.edit{
+    color: yellow;
+}
+
+.upload{
+    color: blue;
+}
+
+.upload:hover .useremai{
+    border: 2px solid white;
+}
